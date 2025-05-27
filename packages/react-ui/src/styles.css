@@ -156,8 +156,3 @@
   /* If necessary, add !important to the rule */
   pointer-events: none !important;
 }
-
-/* Vii */
-button {
-    display: none !important;
-}
