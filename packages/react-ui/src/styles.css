@@ -15,17 +15,6 @@
   display: none !important;
 }
   /* Need to work around it */
-  [role="menuitem"]:nth-child(4) {
-    display: none !important;
-}
-
-[role="menuitem"]:nth-child(5) {
-    display: none !important;
-}
-
-[role="menuitem"]:nth-child(6) {
-    display: none !important;
-}
   
  [href="/platform"] {
     display: none !important;
