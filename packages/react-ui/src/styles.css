@@ -10,7 +10,11 @@
     margin: 0;
   }
 
-
+/* Need to work around it */
+  [aria-haspopup="menu"]:nth-child(2) {
+  display: none !important;
+}
+  /* Need to work around it */
   [role="menuitem"]:nth-child(4) {
     display: none !important;
 }
