@@ -1,26 +1,5 @@
 import tinycolor from 'tinycolor2'
 
-// Function to inject custom CSS into a <style> tag
-export function injectButtonStyle(cssRule: string) {
-    const style = document.createElement('style')
-    style.type = 'text/css'
-    style.appendChild(document.createTextNode(cssRule))
-    document.head.appendChild(style)
-}
-
-// Inject CSS after DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-    injectButtonStyle(`
-        button#radix\\:\\:rv6\\:-trigger-issues {
-            background-color: red;
-            color: white;
-            border-radius: 4px;
-            padding: 0.5rem 1rem;
-        }
-    `)
-})
-
-// Generate variations of a color
 function generateColorVariations(defaultColor: string) {
     const defaultColorObj = tinycolor(defaultColor)
 
@@ -39,14 +18,12 @@ function generateColorVariations(defaultColor: string) {
     }
 }
 
-// Generate selection color
 function generateSelectionColor(defaultColor: string) {
     const defaultColorObj = tinycolor(defaultColor)
     const lightColor = defaultColorObj.lighten(8)
     return lightColor.toHexString()
 }
 
-// Generate theme object
 export function generateTheme({
     primaryColor,
     fullLogoUrl,
