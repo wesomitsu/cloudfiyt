@@ -25,6 +25,9 @@ button#radix-\:rd\:-trigger-issues {
 [data-sidebar="header"] button#radix-\:r1\: {
     display: none !important;
 }
+  button#radix-\:r5i\:-trigger-issues{
+    display: none !important;
+  }
 
 [data-sidebar="footer"] ul.flex.w-full.min-w-0.flex-col.gap-1 {}
 
