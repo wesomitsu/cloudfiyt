@@ -14,30 +14,13 @@
     display: none !important;
 }
 
-button#radix-\:rd\:-trigger-issues {
-    display: none !important;
-}
-
 [href="/projects/jUDGzc4ozlX6GLw0HPuuG/mcp"] {
     display: none !important;
 }
-
-[data-sidebar="header"] button#radix-\:r1\: {
-    display: none !important;
-}
+  
   button#radix-\:r5i\:-trigger-issues{
     display: none !important;
   }
-
-[data-sidebar="footer"] ul.flex.w-full.min-w-0.flex-col.gap-1 {}
-
-#root > div > div > div.flex.min-h-screen.w-full > div > div.group.peer.text-sidebar-foreground.block > div.fixed.inset-y-0.z-10.h-svh.w-\[--sidebar-width\].transition-\[left\,right\,width\].duration-200.ease-linear.md\:flex.left-0.group-data-\[collapsible\=offcanvas\]\:left-\[calc\(var\(--sidebar-width\)\*-1\)\].group-data-\[collapsible\=icon\]\:w-\[--sidebar-width-icon\].group-data-\[side\=left\]\:border-r.group-data-\[side\=right\]\:border-l > div > div > div.flex.flex-col.gap-2.p-2.pb-4 > ul:nth-child(1) > button {
-    display: none !important;
-}
-
-#root > div > div > div.flex.min-h-screen.w-full > div > div.group.peer.text-sidebar-foreground.block > div.fixed.inset-y-0.z-10.h-svh.w-\[--sidebar-width\].transition-\[left\,right\,width\].duration-200.ease-linear.md\:flex.left-0.group-data-\[collapsible\=offcanvas\]\:left-\[calc\(var\(--sidebar-width\)\*-1\)\].group-data-\[collapsible\=icon\]\:w-\[--sidebar-width-icon\].group-data-\[side\=left\]\:border-r.group-data-\[side\=right\]\:border-l > div > div > div.flex.flex-col.gap-2.p-2.pb-4 > ul:nth-child(2) {
-    display: none !important;
-}
   
   :root {
     --background: 0 0% 100%;
