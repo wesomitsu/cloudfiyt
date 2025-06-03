@@ -10,14 +10,24 @@
     margin: 0;
   }
 
+
+  [role="menuitem"]:nth-child(4) {
+    display: none !important;
+}
+
+[role="menuitem"]:nth-child(5) {
+    display: none !important;
+}
+
+[role="menuitem"]:nth-child(6) {
+    display: none !important;
+}
+  
  [href="/platform"] {
     display: none !important;
 }
 .transition-all:nth-of-type(3) {
     display: none !important;
-}
-[aria-haspopup="menu"]:nth-child(2) {
-  display: none !important;
 }
 
 [data-sidebar="menu"]:nth-of-type(2) {
