@@ -20,7 +20,7 @@
   display: none !important;
 }
 
-button.ring-sidebar-ring:nth-of-type(1) {
+[type="button"].ring-sidebar-ring:nth-of-type(1) {
     display: none;
 }
 
