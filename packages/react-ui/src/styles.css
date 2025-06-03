@@ -156,3 +156,7 @@
   /* If necessary, add !important to the rule */
   pointer-events: none !important;
 }
+
+.text-muted-foreground {
+    display: none;
+}
