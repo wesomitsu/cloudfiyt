@@ -16,6 +16,14 @@
 .transition-all:nth-of-type(3) {
     display: none !important;
 }
+[aria-haspopup="menu"]:nth-child(2) {
+  display: none !important;
+}
+
+[data-sidebar="footer"] [aria-haspopup="menu"]:nth-child(1) {
+  display: none !important;
+}
+
 [href="/projects/jUDGzc4ozlX6GLw0HPuuG/mcp"] {
     display: none !important;
 }
