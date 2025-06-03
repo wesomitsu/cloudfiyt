@@ -10,6 +10,10 @@
     margin: 0;
   }
 
+  .text-muted-foreground {
+    display: none;
+  }
+  
   :root {
     --background: 0 0% 100%;
     --foreground: 224 71.4% 4.1%;
