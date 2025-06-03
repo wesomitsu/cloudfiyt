@@ -67,7 +67,7 @@ export function generateTheme({
 export const defaultTheme = generateTheme({
     primaryColor: '#6e41e2',
     websiteName: 'CloudifyTechs',
-    fullLogoUrl: 'https://www.boostad.shop/wp-content/uploads/2025/06/Powered_By_Wathek-removebg-preview.png',
+    fullLogoUrl: 'https://www.boostad.shop/wp-content/uploads/2025/06/Powered_By_Wathek-removebg-preview-1.png',
     favIconUrl: 'https://cdn.activepieces.com/brand/favicon.ico',
     logoIconUrl: 'https://cdn.activepieces.com/brand/logo.svg',
 })
