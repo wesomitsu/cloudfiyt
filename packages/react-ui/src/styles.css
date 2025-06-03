@@ -20,8 +20,8 @@
   display: none !important;
 }
 
-[type="button"].ring-sidebar-ring:nth-of-type(1) {
-    display: none;
+[data-sidebar="menu"]:nth-of-type(2) {
+    display: none !important;
 }
 
 [href="/projects/jUDGzc4ozlX6GLw0HPuuG/mcp"] {
