@@ -1,3 +1,4 @@
+ENV NODE_OPTIONS=--max-old-space-size=2048
 
 FROM node:18.20.5-bullseye-slim AS base
 
